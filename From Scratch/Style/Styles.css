@@ -1,0 +1,35 @@
+/* This is a comment */
+/* Thi is a p element selector
+This will affect p elemenet 
+That has this .css file
+linked to it
+*/
+p{
+    color: plum;
+    font-family: sans-serif;
+    border: 3px solid black;
+    margin: 5px;
+    padding: 10px;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.special_text {
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(225, 0, 255);
+    border: solid black 1px;
+}
+ 
+/* element selector with state */
+
+a:hover{
+    color: rgb(67, 139, 222);
+    text-decoration: line-through;
+}
+
+a:visited {
+    color: rgb(15, 82, 182);
+}
